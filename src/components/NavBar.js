@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './Logo.png';
 
 // Navbar component
 const NavBar = () => {
@@ -6,7 +7,7 @@ const NavBar = () => {
     <nav>
       <div className="navbar">
         <div className="logo">
-          <img src="/Logo.png" alt="Logo" />
+        <img src={Logo} alt="Logo" className="logo" />
         </div>
         <ul className="nav-links">
           <li><a href="#">Sign-In</a></li>

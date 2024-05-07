@@ -3,13 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
   }
   
-  .logo img {
-     height: fit-content;
-     width: 30px;
+  .logo{
+     height: 70px;
+     width: 70px;
+     margin-left: 10px;
   }
   
   .nav-links {
@@ -31,7 +32,7 @@
   
   .body {
     margin: 0;
-    height: 100vh;
+    height: 89vh;
     text-align: center;
     background-image: url('./components/hombg.jpg');
     background-size: cover;
@@ -67,7 +68,7 @@
   .search-btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #a612da;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -75,7 +76,7 @@
   }
   
   .search-btn:hover {
-    background-color: #0056b3;
+    background-color: #a612da;
   }
   
   
