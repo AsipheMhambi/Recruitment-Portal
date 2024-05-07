@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './components/NavBar';
-import Body from './components/Body';
+import Navbar from './components/Home Page/NavBar';
+import Body from './components/Home Page/Body';
 import './Home.css';
 
 const App = () => {
